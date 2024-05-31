@@ -1,5 +1,3 @@
-#-----Coded By Nico---------#
-#-----Nico's Scripts-------#
 import os,time
 import requests
 import random
@@ -34,20 +32,51 @@ ran = random.choice(random_colour)
 #------------logo ------------#
 logo = (f"""
 {ran}-----------------------------------------------{w}
-███████╗██╗   ██╗██╗   ██╗ █████╗ ██╗██████╗ 
-{ran}██╔════╝██║   ██║╚██╗ ██╔╝██╔══██╗██║██╔══██╗{w}
-███████╗██║   ██║ ╚████╔╝ ███████║██║██████╔╝
-{ran}╚════██║██║   ██║  ╚██╔╝  ██╔══██║██║██╔══██╗{w}
-███████║╚██████╔╝   ██║   ██║  ██║██║██████╔╝
-{ran}╚══════╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝╚═╝╚═════╝{w}
+{c}888     888 888b    888  .d88888b.  
+{c}888     888 8888b   888 d88P" "Y88b 
+{c}888     888 88888b  888 888     888 
+{c}888     888 888Y88b 888 888     888 
+{c}888     888 888 Y88b888 888     888 
+{c}888     888 888  Y88888 888     888 
+{c}Y88b. .d88P 888   Y8888 Y88b. .d88P 
+{c} "Y88888P"  888    Y888  "Y88888P"  
+                                    
 {ran}-----------------------------------------------{w}
 
- {c}Owner  : {ran}MD SUYAIB ISLAM
- {c}Chanel : {ran}TEAM MR NONSENSE
+ {c}Owner  : {ran}Uno Dos
  {c}Type   : {ran}TIKTOK FAKE VIEW
 {ran}-----------------------------------{w}""")
 def linex():
     print(f'{ran}-----------------------------------{w}')
+
+def shoha_menu():
+    B4="S4-"
+    uuid = str(os.geteuid()) + str(os.getlogin()) 
+    id = "5".join(uuid)
+    print(logo)
+    DARK=requests.get("https://github.com/Joshhi1/API.txt/tree/main").text
+    if id in DARK:
+        menu()
+    else:
+        os.system("clear")
+        os.system("xdg-open https://www.facebook.com/61554782104701")
+        time.sleep(3.0)
+        
+        os.system("clear")
+        print(logo)
+        print("{p}   {bl}[47m FIRST GET APPROVAL\3[00m\3[1;30m]")
+        print ("")
+        print("┌━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┐ {r}│ NOTE : THAT IS PAID BECAUSE 100% OK ID JUST NOW LOGIN│{c}\━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┘")
+        print ("")
+        print("                YOUR KEY IS NOT APPROVED ")
+        print("               COPY AND SEND KEY TO ADMIN")
+        print ("")
+        print (" YOUR KEY : "+B4+id)
+        name = input(" YOUR NAME : ")
+        print ("")
+        input(" PRESS ENTER TO SEND KEY")
+        os.system("xdg-open https://www.facebook.com/61554782104701")
+shoha_menu()
 
 class TikTokBooster:
     def __init__(self):
@@ -78,9 +107,9 @@ class TikTokBooster:
 
 def main():
 	print(logo)
-	print(f"{y} [√]ENTER YOUR TIKTOK USERNAME HERE ⬇️⬇️{w}")
+	print(f"{y} ⟩⟩ ENTER YOUR TIKTOK USERNAME HERE ⬇️⬇️{w}")
 	linex()
-	print(f"{y} [√]EXAMPLE »  @CHOKI «{w}")
+	print(f"{y} ⟩⟩ EXAMPLE »  @CHOKI «{w}") 
 	linex()
 	user = input(f' {ran}[?]TikTok UserName:{w} ')
 	linex()
